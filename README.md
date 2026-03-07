@@ -1,4 +1,3 @@
-
 # Insurance Fraud Detection System
 
 A Machine Learning based web application that predicts whether an **insurance claim is fraudulent or legitimate** based on multiple parameters. The system uses data preprocessing, feature engineering, and classification models to identify suspicious claims and help insurance companies reduce financial losses.
@@ -30,9 +29,11 @@ The system analyzes multiple attributes related to policy details, customer info
 # Technologies Used
 
 ### Programming Language
+
 - Python
 
 ### Libraries
+
 - NumPy
 - Pandas
 - Matplotlib
@@ -41,9 +42,11 @@ The system analyzes multiple attributes related to policy details, customer info
 - Pickle
 
 ### Web Framework
+
 - Flask
 
 ### Frontend
+
 - HTML
 - CSS
 
@@ -175,47 +178,10 @@ Fraud Insurance Claim
 - Deploy using Docker
 - Deploy on cloud platforms (AWS / Render)
 
-
 ---
+
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-
 ---
-
-
-📬 Contact Me
-
-👤 Author: [Shivansh Gupta]
-📧 Email: [Shivansh Gupta](mailto:shivanshgupta2505@gmail.com)
-
-💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/shivansh-gupta-b3b75b210/)
-
-
----
-
-
-💖 Support & Contributions
-
-If you find these projects helpful:
-⭐ Star this repo — it motivates me to keep learning and sharing!
-💬 Feedback & Suggestions are always welcome.
-
-“Every big journey starts with small steps — this is mine in Machine Learning.” 🌍
-
----
-
-🏁 Future Plans
-
-📈 Add more beginner-to-intermediate ML projects
-
-🧠 Dive into Deep Learning (Neural Networks, CNNs, RNNs)
-
-🗂️ Organize content by topic (Regression, Classification, Clustering, etc.)
-
-🌐 Create a documentation website for easy learning navigation
-
-🖤 Thank you for visiting my ML Journey Repository!
-
-Keep Learning, Keep Building, and Keep Growing! 🚀
