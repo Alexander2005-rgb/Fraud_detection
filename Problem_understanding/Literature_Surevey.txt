@@ -1,0 +1,72 @@
+LITERATURE SURVEY
+
+Insurance fraud has become a significant problem for insurance companies worldwide,
+resulting in billions of dollars in losses every year.Researchers and organizations
+have explored various data analysis and machine learning techniques to detect fraudulent insurance claims effectively.
+
+1️. TRADITIONAL FRAUD DETECTION METHODS
+
+Earlier fraud detection systems relied mainly on rule-based systems and manual investigation.
+These systems used predefined rules to identify suspicious claims.
+
+However, these methods had several limitations:
+
+*Difficulty in detecting complex fraud patterns
+*High operational cost due to manual investigation
+*Limited scalability for large datasets
+
+Due to these limitations, researchers began exploring data mining and machine learning techniques for fraud detection.
+
+2️. MACHINE LEARNING APPROACHES
+
+Machine learning techniques have shown promising results in detecting fraudulent activities in insurance claims.
+Several classification algorithms have been used for fraud detection.
+
+Commonly used algorithms include:
+
+*Logistic Regression
+*Decision Tree
+*Random Forest
+*Support Vector Machine (SVM)
+*Naive Bayes
+
+These algorithms analyze historical insurance claim data and learn patterns that help identify fraudulent behavior.
+
+3️. DATA MINING TECHNIQUES
+
+Data mining plays a major role in extracting useful patterns from large datasets. It helps identify relationships between different features such as:
+
+*Claim amount
+*Accident severity
+*Policy holder information
+*Incident type
+
+Through data mining, suspicious patterns can be detected more effectively.
+
+4️. RECENT RESEARCH TRENDS
+
+Recent studies focus on improving fraud detection systems using advanced techniques such as:
+
+*Ensemble learning models
+*Deep learning algorithms
+*Hybrid models combining multiple machine learning techniques
+
+These approaches help improve fraud detection accuracy and reduce false positives.
+
+5️. IMPORTANCE OF DATA ANALYSIS
+
+Researchers have emphasized the importance of Exploratory Data Analysis (EDA) in fraud detection projects.
+EDA helps understand the distribution of fraudulent and non-fraudulent claims and identifies the most influential features affecting fraud.
+
+Visualization tools such as graphs and heatmaps are often used to analyze relationships between variables.
+
+6️. APPLICATIONS OF MACHINE LEARNING IN FRAUD DETECTION
+
+Machine learning-based fraud detection systems are widely used in various industries, including:
+
+*Banking fraud detection
+*Credit card fraud detection
+*Healthcare insurance fraud detection
+*Automobile insurance fraud detection
+
+These systems help organizations detect fraud faster and reduce financial losses.

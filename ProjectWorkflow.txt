@@ -1,0 +1,21 @@
+Simple Workflow Diagram
+
+Problem Understanding
+        ↓
+Data Collection
+        ↓
+Data Preparation
+        ↓
+Exploratory Data Analysis
+        ↓
+Feature Engineering
+        ↓
+Model Building
+        ↓
+Model Evaluation
+        ↓
+Model Comparison
+        ↓
+Model Deployment
+        ↓
+Project Demonstration

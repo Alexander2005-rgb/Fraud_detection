@@ -1,0 +1,70 @@
+BUSINESS REQUIREMENTS
+
+The business requirements describe what the insurance company needs from the fraud detection system
+in order to reduce losses and improve operational efficiency.
+
+1️. FRAUD DETECTION SYSTEM
+
+The system must be able to identify potentially fraudulent insurance claims based on historical claim data and customer information.
+
+2️. AUTOMATED CLAIM ANALYSIS
+
+The system should automatically analyze claim data such as:
+
+*Policy details
+*Customer information
+*Incident details
+*Claim amount
+*Accident severity
+
+3️. REAL-TIME FRAUD PREDICTION
+
+The model should allow the company to predict fraud in real time when a new claim is submitted.
+
+The system should classify claims as:
+
+*Fraudulent
+*Legitimate
+
+4️. HIGH PREDICTION ACCURACY
+
+The machine learning model should achieve high accuracy and reliability so that the company can trust the predictions while reviewing claims.
+
+5️. RISK-BASED CLAIM PRIORITIZATION
+
+The system should help investigators by flagging high-risk claims that require further investigation.
+This allows the fraud investigation team to focus on suspicious claims first.
+
+6️. EASY INTEGRATION
+
+The fraud detection system should be able to integrate with the company’s existing claim management system.
+This ensures smooth implementation without disrupting current business processes.
+
+7️. DATA VISUALIZATION and REPORTING
+
+The system should provide insights such as:
+
+*Fraud patterns
+*Fraud rate
+*High-risk claim categories
+
+8️. SCALABLE SOLUTION
+
+The system should be scalable so it can handle large volumes of insurance claims in the future.
+
+9️. USER-FRIENDLY INTERFACE
+
+The application should provide a simple interface where users can input claim details and receive fraud predictions easily.
+
+10. DATA SECURITY
+
+The system should ensure secure handling of sensitive customer and insurance data to protect privacy and comply with regulations.
+
+  BUSINESS OBJECTIVE
+
+The main objectives of this project are:
+
+*Detect fraudulent insurance claims using machine learning.
+*Reduce financial losses caused by fraud.
+*Improve the efficiency of claim processing.
+*Assist investigators in identifying high-risk claims quickly.

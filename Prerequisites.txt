@@ -1,0 +1,68 @@
+1️. Programming Knowledge
+
+Python programming
+Object-Oriented Programming concepts
+Data Structures basics
+
+2️. Machine Learning Concepts
+
+Supervised Learning
+Classification Algorithms
+Model Training and Testing
+Model Evaluation Metrics
+
+Accuracy
+Precision
+Recall
+F1-Score
+Confusion Matrix
+
+3️. Data Analysis Knowledge
+
+Data Cleaning
+Handling Missing Values
+Feature Engineering
+Data Visualization
+Statistical analysis
+
+4️. Required Software
+
+Python 3.8 or above
+Jupyter Notebook or Visual Studio Code
+Git (optional for version control)
+
+5️. Required Python Libraries
+
+pip install pandas numpy matplotlib seaborn scikit-learn flask
+
+Library Purpose
+
+pandas Data manipulation and analysis
+numpy Numerical operations
+matplotlib Data visualization
+seaborn Statistical visualization
+scikit-learn Machine learning algorithms
+flask Web application deployment
+
+6️. Hardware Requirements
+
+Processor: Intel i3 or above
+RAM: 4GB or more
+Storage: 2GB free space
+
+7️. Dataset Requirement
+
+Policy details
+Customer information
+Accident details
+Claim amount
+Fraud label (fraud / not fraud)
+
+Example dataset column:
+
+policy_number
+insured_age
+incident_type
+incident_severity
+total_claim_amount
+fraud_reported

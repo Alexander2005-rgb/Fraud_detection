@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Auto Insurance Claims</title>
+<style>
+     body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+}
+
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+right:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#111;
+color:white;
+;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+.predict-btn{
+border:2px solid orange;
+padding:8px 15px;
+}
+
+.hero{
+height:80vh;
+
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+color:rgb(153, 5, 5);
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.about{
+padding:80px;
+}
+
+.about-container{
+display:flex;
+gap:50px;
+}
+
+.about-image img{
+width:450px;
+}
+
+.predict-section{
+padding:60px;
+text-align:center;
+}
+
+.form-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+padding:30px;
+}
+
+.form-grid input{
+padding:8px;
+border:1px solid #ccc;
+}
+
+.submit-btn{
+grid-column:span 4;
+padding:12px;
+background:green;
+color:white;
+border:none;
+}
+
+.result{
+text-align:center;
+padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+<div class="logo">AUTO INSURANCE CLAIMS.</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+<a href="#predict" class="predict-btn">Predict</a>
+</nav>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+     <img src="{{ url_for('static', filename='insurance-claim.webp') }}" alt="Insurance Claims" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1; opacity: 0.7;">
+
+<div class="hero-content">
+<h1>Insurance Claims<span>.</span></h1>
+
+<p>
+Insurance Fraud Detection can be prevented by analysing
+the previous Fraud Data and detecting same trends.
+</p>
+</div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+
+<div class="about-container">
+
+<div class="about-image">
+<img src="{{ url_for('static', filename='OIP.webp') }}" alt="Insurance Fraud Detection">
+</div>
+
+<div class="about-text">
+
+<h2>Data Collection and Preprocessing</h2>
+<p>
+The first step involves collecting Insurance data and preprocessing
+it to handle missing values and categorical data.
+</p>
+
+<h2>Feature Engineering and Model Selection</h2>
+<p>
+Selecting relevant features and training machine learning models
+like Decision Tree, Random Forest or SVM.
+</p>
+
+<h2>Model Training and Evaluation</h2>
+<p>
+The trained model is evaluated using accuracy, precision,
+recall and F1 score.
+</p>
+
+<h2>Model Deployment</h2>
+<p>
+Deploying the trained model to classify insurance fraud
+claims in real time.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PREDICTION FORM -->
+<section id="predict" class="predict-section">
+
+<h2>Insurance Fraud Detection</h2>
+
+<form action="/predict" method="POST" class="form-grid">
+
+<input type="text" name="months_as_customer" placeholder="months_as_customer">
+<input type="text" name="age" placeholder="age">
+<input type="text" name="policy_number" placeholder="policy_number">
+<input type="text" name="policy_bind_date" placeholder="policy_bind_date">
+<input type="text" name="policy_state" placeholder="policy_state">
+
+<input type="text" name="policy_csl" placeholder="policy_csl">
+<input type="text" name="policy_deductable" placeholder="policy_deductable">
+<input type="text" name="policy_annual_premium" placeholder="policy_annual_premium">
+<input type="text" name="umbrella_limit" placeholder="umbrella_limit">
+<input type="text" name="insured_zip" placeholder="insured_zip">
+
+<input type="text" name="insured_sex" placeholder="insured_sex">
+<input type="text" name="insured_education_level" placeholder="insured_education_level">
+<input type="text" name="insured_occupation" placeholder="insured_occupation">
+<input type="text" name="insured_hobbies" placeholder="insured_hobbies">
+<input type="text" name="insured_relationship" placeholder="insured_relationship">
+
+<input type="text" name="capital_gains" placeholder="capital_gains">
+<input type="text" name="capital_loss" placeholder="capital_loss">
+<input type="text" name="incident_date" placeholder="incident_date">
+<input type="text" name="incident_type" placeholder="incident_type">
+
+<input type="text" name="collision_type" placeholder="collision_type">
+<input type="text" name="incident_severity" placeholder="incident_severity">
+<input type="text" name="authorities_contacted" placeholder="authorities_contacted">
+<input type="text" name="incident_state" placeholder="incident_state">
+<input type="text" name="incident_city" placeholder="incident_city">
+<input type="text" name="incident_location" placeholder="incident_location">
+
+<input type="text" name="incident_hour_of_the_day" placeholder="incident_hour_of_the_day">
+<input type="text" name="number_of_vehicles_involved" placeholder="vehicles_involved">
+<input type="text" name="property_damage" placeholder="property_damage">
+<input type="text" name="bodily_injuries" placeholder="bodily_injuries">
+
+<input type="text" name="witnesses" placeholder="witnesses">
+<input type="text" name="police_report_available" placeholder="police_report_available">
+<input type="text" name="total_claim_amount" placeholder="total_claim_amount">
+<input type="text" name="injury_claim" placeholder="injury_claim">
+<input type="text" name="property_claim" placeholder="property_claim">
+<input type="text" name="vehicle_claim" placeholder="vehicle_claim">
+<input type="text" name="auto_make" placeholder="auto_make">
+
+<input type="text" name="auto_model" placeholder="auto_model">
+<input type="text" name="auto_year" placeholder="auto_year">
+
+<button type="submit" class="submit-btn">Submit</button>
+
+</form>
+
+</section>
+
+
+
+<!-- RESULT -->
+<div class="result">
+
+<h2>The Insurance Fraud Detection Status:</h2>
+
+<h3>{{ prediction_text }}</h3>
+
+</div>
+
+</body>
+</html>

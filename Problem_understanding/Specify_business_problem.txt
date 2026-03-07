@@ -1,0 +1,15 @@
+BUSINESS PROBLEM
+
+Every day, insurance companies handle thousands of claims. Many of these claims are fraudulent, 
+meaning that people purposefully give inaccurate or inflated information in order to profit financially.
+Insurance companies suffer significant financial losses as a result of fraudulent claims, which also raise operating expenses.
+
+Conventional fraud detection techniques mostly rely on rule-based systems and manual investigation, 
+which are frequently costly, time-consuming, and less successful at spotting intricate fraud patterns.
+As a result, an intelligent system that can automatically evaluate insurance claim data 
+and precisely and effectively detect possible fraudulent claims is required.
+
+The goal of this project is to create a machine learning model that evaluates past insurance claim
+information to determine whether a claim is authentic or fraudulent. By putting this system into place
+Insurance companies can decrease financial losses, increase the effectiveness of their claim verification process, 
+and identify suspicious claims early by putting this system into place.

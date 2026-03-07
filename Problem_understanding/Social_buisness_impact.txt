@@ -1,0 +1,44 @@
+SOCIAL AND BUSINESS IMPACT
+
+Insurance fraud not only affects insurance companies but also impacts society and honest policyholders.
+Implementing a machine learning-based fraud detection system can bring several positive social and business benefits.
+
+1️.REDUCTION IN FINANCIAL LOSSES
+
+Fraudulent insurance claims lead to huge financial losses for insurance companies every year.
+A machine learning-based fraud detection system can identify suspicious claims early and help companies reduce financial losses significantly.
+
+2️. LOWER INSURANCE PREMIUMS FOR CUSTOMERS
+
+When fraud increases, insurance companies often raise premiums for all customers to recover losses.
+By detecting and preventing fraud, companies can maintain fair pricing and reduce unnecessary premium increases for honest customers.
+
+3️. FASTER CLAIM PROCESSING
+
+With automated fraud detection, genuine claims can be processed faster because the system quickly
+identifies which claims are legitimate. This improves customer satisfaction and service quality.
+
+4️. IMPROVED OPERATIONAL EFFICIENCY
+
+Manual fraud investigation requires significant time and resources. A machine learning model helps automate the detection process,
+allowing investigators to focus only on high-risk claims, thereby improving operational efficiency.
+
+5️.DATA-DRIVEN DECISION MAKING
+
+The fraud detection system provides insights into patterns and trends in fraudulent activities. 
+This helps insurance companies make better strategic decisions based on data analysis.
+
+6️. ENHANCED TRUST IN INSURANCE SYSTEMS
+
+Fraudulent activities reduce trust in insurance systems. Detecting and preventing fraud helps
+maintain transparencyand trust between insurance providers and customers.
+
+7️. SUPPORT FOR INVESTIGATIVE TEAMS
+
+The system acts as a decision-support tool for fraud investigators by flagging suspicious claims,
+making it easier to prioritize investigations and allocate resources effectively.
+
+8️. SCALABILITY FOR LARGE DATA
+
+Insurance companies handle large volumes of claim data daily. A machine learning-based system can 
+analyze large datasets efficiently,making it suitable for large-scale operations.
